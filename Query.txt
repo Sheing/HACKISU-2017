@@ -1,0 +1,12 @@
+Query Experiment:
+
+//Other language:
+db.posts.find({"lang": {$nin: ["en"] }}).pretty()
+//Average Followers Count:
+db.posts.aggregate( [ {$group: { _id :null, avg: {$avg: "$followers_count"}}}])
+//Sorted by Most Followers 
+db.posts.find().sort({"followers_count": -1 }).limit(3).pretty()
+//Track text (trump)
+db.posts.find({"text": /trump/).pretty()
+//Track coordinate 
+db.posts.find({"place": coordinate_values).pretty()
