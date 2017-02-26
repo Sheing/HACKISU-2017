@@ -95,7 +95,9 @@ Getting Started:
 
 ## What's next for AgentTweet
 --Integrating all these into a user friendly interface or make it as an app.
+
 --Collaborate with companies that requires data mining on twitter, e.g: Health Care Provider, Marketing and Advertising Company.
+
 --Upgrade to a bigger cloud server
 
 
