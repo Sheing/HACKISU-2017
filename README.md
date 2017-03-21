@@ -1,6 +1,8 @@
 # HACKISU-2017-AgentTweet 
 ![agentTweet](https://github.com/Sheing/HACKISU-2017/blob/master/AgentTweet.png)
 
+Video Link: https://devpost.com/software/agentweet
+
 # What it can do
 
 -Collect instantaneous data from recent feeds (`stream` with [tweepy API](http://docs.tweepy.org/en/v3.5.0/streaming_how_to.html)) using keywords within a person’s tweet 
